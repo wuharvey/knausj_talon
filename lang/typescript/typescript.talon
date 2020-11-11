@@ -155,6 +155,10 @@ state reduce:
 
 state spread: "..."
 
+console log:
+  insert("console.log()")
+  key(left)
+
 ^funky <user.text>$: user.code_private_function(text)
 ^pro funky <user.text>$: user.code_protected_function(text)
 ^pub funky <user.text>$: user.code_public_function(text)

@@ -97,11 +97,11 @@ indent [more]:
 clear line:
     edit.delete_line()
 
-clear left:
-    key(backspace)
+# clear left:
+#     key(backspace)
 
-clear right:
-    key(delete)
+# clear right:
+#     key(delete)
 
 clear up:
     edit.extend_line_up()
@@ -111,11 +111,11 @@ clear down:
     edit.extend_line_down()
     edit.delete()
 
-clear word left:
+clear left:
     edit.extend_word_left()
     edit.delete()
 
-clear word right:
+clear right:
     edit.extend_word_right()
     edit.delete()
 

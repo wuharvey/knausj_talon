@@ -14,7 +14,7 @@ git checkout master: "git checkout master\n"
 git checkout <user.text>: "git checkout {text}"
 git cherry pick: "git cherry-pick "
 git clone: "git clone "
-git commit message <user.text>: "git commit -m '{text}'"
+git commit message <user.text>: "git commit -am '{text}'"
 git commit: "git commit\n"
 git diff (colour|color) words: "git diff --color-words "
 git diff: "git diff "
@@ -63,6 +63,32 @@ git stash show: "git stash show"
 git status: "git status\n"
 git submodule add:  "git submodule add "
 git tag: "git tag "
+
+
+yarn add: "yarn add "
+yarn dev: "yarn dev\n"
+yarn start: "yarn start\n"
+list: "ll\n"
+cod: "cd "
+pseudo that: "sudo !!"
+kill | clear: key(ctrl-c)
+grep: "grep "
+arc diff: "arc diff\n"
+vim: "vim "
+search: key(ctrl-r)
+again: "!!\n"
+quick save:
+    key(esc)
+    ":x"
+    key(enter)
+move: "mv "
+dubtab: 
+    key(tab) 
+    key(tab)
+go there: "cd !$:h\n"
+dir make: "mkdir "
+dur up: "cd ..\n"
+dur back: "cd -\n"
 
 # Convenience
 git edit config: "git config --local -e\n"
