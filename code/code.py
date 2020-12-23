@@ -53,6 +53,7 @@ extension_lang_map = {
     "snippets": "snippets",
     "talon": "talon",
     "ts": "typescript",
+    "tsx": "typescript",
     "vba": "vba",
     "vim": "vimscript",
     "vimrc": "vimscript",

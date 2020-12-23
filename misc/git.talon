@@ -90,6 +90,8 @@ go there: "cd !$:h\n"
 dir make: "mkdir "
 dur up: "cd ..\n"
 dur back: "cd -\n"
+rimraf: "rm -rf "
+no verify: "--no-verify"
 
 # Convenience
 git edit config: "git config --local -e\n"

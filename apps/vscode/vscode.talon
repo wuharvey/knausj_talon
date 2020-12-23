@@ -197,6 +197,24 @@ select less: user.vscode("editor.action.smartSelect.shrink")
 select (more|this): user.vscode("editor.action.smartSelect.expand")
   
 # vim stuff
-change word: caw
+change word: 
+  key(esc)
+  "caw"
 
   
+# vim stuff
+change string: 
+  key(esc)
+  "ca\""
+change word: 
+  key(esc)
+  "caw"
+head:
+  key(esc)
+  "gg"
+bottom:
+  key(esc)
+  "G"
+select line:
+  key(esc)
+  "V"
